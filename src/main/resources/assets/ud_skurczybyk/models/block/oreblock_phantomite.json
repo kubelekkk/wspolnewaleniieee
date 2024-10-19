@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/oreblockphantomite",
+    "up": "ud_skurczybyk:block/oreblockphantomite",
+    "north": "ud_skurczybyk:block/oreblockphantomite",
+    "east": "ud_skurczybyk:block/oreblockphantomite",
+    "south": "ud_skurczybyk:block/oreblockphantomite",
+    "west": "ud_skurczybyk:block/oreblockphantomite",
+    "particle": "ud_skurczybyk:block/oreblockphantomite"
+  },
+  "render_type": "solid"
+}

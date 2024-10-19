@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/chitin_ore",
+    "up": "ud_skurczybyk:block/chitin_ore",
+    "north": "ud_skurczybyk:block/chitin_ore",
+    "east": "ud_skurczybyk:block/chitin_ore",
+    "south": "ud_skurczybyk:block/chitin_ore",
+    "west": "ud_skurczybyk:block/chitin_ore",
+    "particle": "ud_skurczybyk:block/chitin_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/pasted",
+    "up": "ud_skurczybyk:block/pasted",
+    "north": "ud_skurczybyk:block/pasted",
+    "east": "ud_skurczybyk:block/pasted",
+    "south": "ud_skurczybyk:block/pasted",
+    "west": "ud_skurczybyk:block/pasted",
+    "particle": "ud_skurczybyk:block/pasted"
+  },
+  "render_type": "solid"
+}

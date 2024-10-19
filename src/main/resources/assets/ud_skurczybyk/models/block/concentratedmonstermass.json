@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/concentrated_monster_mass",
+    "up": "ud_skurczybyk:block/concentrated_monster_mass",
+    "north": "ud_skurczybyk:block/concentrated_monster_mass",
+    "east": "ud_skurczybyk:block/concentrated_monster_mass",
+    "south": "ud_skurczybyk:block/concentrated_monster_mass",
+    "west": "ud_skurczybyk:block/concentrated_monster_mass",
+    "particle": "ud_skurczybyk:block/concentrated_monster_mass"
+  },
+  "render_type": "solid"
+}

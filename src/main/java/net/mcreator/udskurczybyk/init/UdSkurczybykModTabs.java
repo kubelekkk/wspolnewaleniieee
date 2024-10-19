@@ -4,35 +4,41 @@
  */
 package net.mcreator.udskurczybyk.init;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.udskurczybyk.UdSkurczybykMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class UdSkurczybykModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, UdSkurczybykMod.MODID);
+	public static final RegistryObject<CreativeModeTab> UN_DWORLD = REGISTRY.register("un_dworld",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.ud_skurczybyk.un_dworld")).icon(() -> new ItemStack(UdSkurczybykModBlocks.UNDEADBICKS.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(UdSkurczybykModItems.SKURCZYBYK_SPAWN_EGG.get());
+				tabData.accept(UdSkurczybykModItems.THICKOFIT.get());
+				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_HELMET.get());
+				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_CHESTPLATE.get());
+				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_LEGGINGS.get());
+				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_BOOTS.get());
+				tabData.accept(UdSkurczybykModItems.HAT_HELMET.get());
+				tabData.accept(UdSkurczybykModItems.SPIDERCREAPER_SPAWN_EGG.get());
+				tabData.accept(UdSkurczybykModBlocks.JAJKO.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.UNDEADBICKS.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.UNDEADBICKSSTAIRS.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.UNDEADBICKSSLAB.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.UNDEADBICKSWALL.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.DRIED_OUT_BLOOD.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.UNDEAD_STONEORE.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.MONSTERMUSCLEMASS.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.CHITINORE.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.CONCENTRATEDMONSTERMASS.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.OASIS_STONE_BLOCK.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.OREBLOCK_PHANTOMITE.get().asItem());
+			})
 
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-
-			tabData.accept(UdSkurczybykModItems.SKURCZYBYK_SPAWN_EGG.get());
-			tabData.accept(UdSkurczybykModItems.THICKOFIT.get());
-			tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_HELMET.get());
-			tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_CHESTPLATE.get());
-			tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_LEGGINGS.get());
-			tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_BOOTS.get());
-			tabData.accept(UdSkurczybykModItems.HAT_HELMET.get());
-			tabData.accept(UdSkurczybykModItems.SPIDERCREAPER_SPAWN_EGG.get());
-			tabData.accept(UdSkurczybykModBlocks.JAJKO.get().asItem());
-
-		}
-	}
+					.build());
 }

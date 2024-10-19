@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ud_skurczybyk:block/undeadbicksslab"
+    },
+    "type=top": {
+      "model": "ud_skurczybyk:block/undeadbicksslab_top"
+    },
+    "type=double": {
+      "model": "ud_skurczybyk:block/undeadbicksslab_full"
+    }
+  }
+}

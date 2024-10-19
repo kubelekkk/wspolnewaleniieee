@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "ud_skurczybyk:block/newbircks",
+    "bottom": "ud_skurczybyk:block/newbircks",
+    "top": "ud_skurczybyk:block/newbircks",
+    "side": "ud_skurczybyk:block/newbircks"
+  },
+  "render_type": "solid"
+}

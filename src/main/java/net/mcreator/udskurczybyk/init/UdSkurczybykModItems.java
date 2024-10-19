@@ -29,6 +29,17 @@ public class UdSkurczybykModItems {
 	public static final RegistryObject<Item> HAT_HELMET = REGISTRY.register("hat_helmet", () -> new HatItem.Helmet());
 	public static final RegistryObject<Item> SPIDERCREAPER_SPAWN_EGG = REGISTRY.register("spidercreaper_spawn_egg", () -> new ForgeSpawnEggItem(UdSkurczybykModEntities.SPIDERCREAPER, -8895934, -11193549, new Item.Properties()));
 	public static final RegistryObject<Item> JAJKO = block(UdSkurczybykModBlocks.JAJKO);
+	public static final RegistryObject<Item> UNDEADBICKS = block(UdSkurczybykModBlocks.UNDEADBICKS);
+	public static final RegistryObject<Item> UNDEADBICKSSTAIRS = block(UdSkurczybykModBlocks.UNDEADBICKSSTAIRS);
+	public static final RegistryObject<Item> UNDEADBICKSSLAB = block(UdSkurczybykModBlocks.UNDEADBICKSSLAB);
+	public static final RegistryObject<Item> UNDEADBICKSWALL = block(UdSkurczybykModBlocks.UNDEADBICKSWALL);
+	public static final RegistryObject<Item> DRIED_OUT_BLOOD = block(UdSkurczybykModBlocks.DRIED_OUT_BLOOD);
+	public static final RegistryObject<Item> UNDEAD_STONEORE = block(UdSkurczybykModBlocks.UNDEAD_STONEORE);
+	public static final RegistryObject<Item> MONSTERMUSCLEMASS = block(UdSkurczybykModBlocks.MONSTERMUSCLEMASS);
+	public static final RegistryObject<Item> CHITINORE = block(UdSkurczybykModBlocks.CHITINORE);
+	public static final RegistryObject<Item> CONCENTRATEDMONSTERMASS = block(UdSkurczybykModBlocks.CONCENTRATEDMONSTERMASS);
+	public static final RegistryObject<Item> OASIS_STONE_BLOCK = block(UdSkurczybykModBlocks.OASIS_STONE_BLOCK);
+	public static final RegistryObject<Item> OREBLOCK_PHANTOMITE = block(UdSkurczybykModBlocks.OREBLOCK_PHANTOMITE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "ud_skurczybyk:block/newbircks",
+    "particle": "ud_skurczybyk:block/newbircks"
+  },
+  "render_type": "solid"
+}

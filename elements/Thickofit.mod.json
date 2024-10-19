@@ -8,7 +8,7 @@
     "description": "Thick Of IT - Villager",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:UNDworld"
       }
     ],
     "specialInformation": {

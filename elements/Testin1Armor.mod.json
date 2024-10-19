@@ -12,7 +12,7 @@
     "textureBoots": "testin1_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:UNDworld"
       }
     ],
     "armorTextureFile": "testin1",

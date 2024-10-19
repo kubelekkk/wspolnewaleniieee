@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/oasisstoneblock",
+    "up": "ud_skurczybyk:block/oasisstoneblock",
+    "north": "ud_skurczybyk:block/oasisstoneblock",
+    "east": "ud_skurczybyk:block/oasisstoneblock",
+    "south": "ud_skurczybyk:block/oasisstoneblock",
+    "west": "ud_skurczybyk:block/oasisstoneblock",
+    "particle": "ud_skurczybyk:block/oasisstoneblock"
+  },
+  "render_type": "solid"
+}
