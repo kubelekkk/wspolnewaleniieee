@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/udtexture",
+    "up": "ud_skurczybyk:block/udtexture",
+    "north": "ud_skurczybyk:block/udtexture",
+    "east": "ud_skurczybyk:block/udtexture",
+    "south": "ud_skurczybyk:block/udtexture",
+    "west": "ud_skurczybyk:block/udtexture",
+    "particle": "ud_skurczybyk:block/udtexture"
+  },
+  "render_type": "solid"
+}

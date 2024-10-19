@@ -1,0 +1,7 @@
+{
+  "parent": "ud_skurczybyk:custom/cb_hat",
+  "textures": {
+    "0": "minecraft:block/tnt_side",
+    "particle": "minecraft:item/bundle"
+  }
+}

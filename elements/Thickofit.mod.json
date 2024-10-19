@@ -1,0 +1,26 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Thick Of it",
+    "rarity": "EPIC",
+    "texture": "minecraft:diamond",
+    "description": "Thick Of IT - Villager",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:thickofit"
+    },
+    "lengthInTicks": 4080,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "thickofit": {
+    "subtitle": "subtitles.thickofit",
+    "sounds": [
+      {
+        "name": "ud_skurczybyk:thickofit",
+        "stream": true
+      }
+    ]
+  },
+  "obrazeniaskurczybyk": {
+    "sounds": [
+      {
+        "name": "ud_skurczybyk:obrazneina",
+        "stream": false
+      }
+    ]
+  },
+  "smiercskurczybyk": {
+    "sounds": [
+      {
+        "name": "ud_skurczybyk:smierc",
+        "stream": false
+      }
+    ]
+  },
+  "drakedrake": {
+    "sounds": [
+      {
+        "name": "ud_skurczybyk:drakedrake",
+        "stream": false
+      }
+    ]
+  }
+}

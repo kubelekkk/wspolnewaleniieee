@@ -1,0 +1,224 @@
+{
+  "mod_elements": [
+    {
+      "name": "Skurczybyk",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skurczybyk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/forge/biome_modifier/skurczybyk_biome_modifier.json",
+          "src/main/java/net/mcreator/udskurczybyk/entity/SkurczybykEntity.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/skurczybyk_spawn_egg.json",
+          "src/main/java/net/mcreator/udskurczybyk/entity/model/SkurczybykModel.java",
+          "src/main/java/net/mcreator/udskurczybyk/client/renderer/SkurczybykRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Thickofit",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thickofit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/item/ThickofitItem.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/thickofit.json"
+        ]
+      }
+    },
+    {
+      "name": "Testin1Armor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testin_1_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/item/Testin1ArmorItem.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_leggings.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_helmet.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_chestplate.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Testin1ArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testin_1_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Testin1ArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testin_1_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Testin1ArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testin_1_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Testin1ArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testin_1_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Hat",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ud_skurczybyk/models/item/hat_helmet.json",
+          "src/main/java/net/mcreator/udskurczybyk/item/HatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Spidercreaper",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spidercreaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/client/renderer/SpidercreaperRenderer.java",
+          "src/main/java/net/mcreator/udskurczybyk/entity/model/SpidercreaperModel.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/spidercreaper_spawn_egg.json",
+          "src/main/java/net/mcreator/udskurczybyk/entity/SpidercreaperEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Jajko",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jajko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/jajko.json",
+          "src/main/java/net/mcreator/udskurczybyk/block/JajkoBlock.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/jajko.json",
+          "src/main/resources/assets/ud_skurczybyk/models/block/jajko.json",
+          "src/main/resources/assets/ud_skurczybyk/blockstates/jajko.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "thickofit",
+      "files": [
+        "thickofit"
+      ],
+      "category": "record",
+      "subtitle": "thickofit"
+    },
+    {
+      "name": "obrazeniaskurczybyk",
+      "files": [
+        "obrazneina"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "smiercskurczybyk",
+      "files": [
+        "smierc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "drakedrake",
+      "files": [
+        "drakedrake"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Thickofit"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
+      "subtitles.drakedrake": "",
+      "block.ud_skurczybyk.jajko": "Jajko",
+      "item.ud_skurczybyk.spidercreaper_spawn_egg": "Cave Climber Spawn Egg",
+      "item.ud_skurczybyk.testin_1_armor_helmet": "Testin1 Helmet",
+      "item.ud_skurczybyk.testin_1_armor_boots": "Testin1 Boots",
+      "subtitles.smiercskurczybyk": "",
+      "item.ud_skurczybyk.thickofit": "Thick Of it",
+      "item.ud_skurczybyk.testin_1_armor_chestplate": "Testin1 Chestplate",
+      "item.ud_skurczybyk.thickofit.desc": "Thick Of IT - Villager",
+      "subtitles.obrazeniaskurczybyk": "",
+      "entity.ud_skurczybyk.skurczybyk": "Skurczybyk",
+      "item.ud_skurczybyk.testin_1_armor_leggings": "Testin1 Leggings",
+      "subtitles.thickofit": "thickofit",
+      "item.ud_skurczybyk.skurczybyk_spawn_egg": "Skurczybyk Spawn Egg",
+      "entity.ud_skurczybyk.spidercreaper": "Cave Climber"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ud_skurczybyk",
+    "modName": "ud_skurczybyk",
+    "version": "1.21.37",
+    "author": "kfc",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "patron be like",
+    "modElementsPackage": "net.mcreator.udskurczybyk"
+  },
+  "mcreatorVersion": 202400340615
+}
