@@ -50,7 +50,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Undeadbickswall"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -71,7 +71,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Undeadbickswall"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

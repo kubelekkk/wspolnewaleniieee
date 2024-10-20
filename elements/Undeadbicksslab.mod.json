@@ -50,7 +50,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Undeadbicksslab"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -71,7 +71,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Undeadbicksslab"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

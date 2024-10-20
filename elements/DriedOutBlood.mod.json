@@ -47,9 +47,9 @@
         "value": "CUSTOM:UNDworld"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:DriedOutBlood"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -70,7 +70,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:DriedOutBlood"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

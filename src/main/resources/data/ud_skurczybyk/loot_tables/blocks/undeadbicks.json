@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "ud_skurczybyk:blocks/undeadbicksslab",
+  "random_sequence": "ud_skurczybyk:blocks/undeadbicks",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ud_skurczybyk:undeadbicksslab"
+          "name": "ud_skurczybyk:undeadbicks"
         }
       ]
     }

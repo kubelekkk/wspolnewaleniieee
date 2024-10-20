@@ -93,6 +93,7 @@
         "files": [
           "src/main/resources/assets/ud_skurczybyk/models/item/undeadbicks.json",
           "src/main/resources/assets/ud_skurczybyk/models/block/undeadbicks.json",
+          "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/undeadbicks.json",
           "src/main/resources/assets/ud_skurczybyk/blockstates/undeadbicks.json",
           "src/main/java/net/mcreator/udskurczybyk/block/UndeadbicksBlock.java"
         ]
@@ -484,6 +485,7 @@
       "~CUSTOM:Thickofit"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DriedOutBlood",
       "~CUSTOM:OreblockPhantomite",
       "~CUSTOM:OasisStoneBlock",
       "~CUSTOM:Concentratedmonstermass",
