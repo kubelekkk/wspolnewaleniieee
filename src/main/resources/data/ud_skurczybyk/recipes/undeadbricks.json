@@ -1,20 +1,15 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "ingredients": [
-    {
-      "item": "ud_skurczybyk:burneddyingvegetationblock"
-    },
-    {
-      "item": "ud_skurczybyk:burneddyingvegetationblock"
-    },
-    {
-      "item": "ud_skurczybyk:burneddyingvegetationblock"
-    },
-    {
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
       "item": "ud_skurczybyk:burneddyingvegetationblock"
     }
-  ],
+  },
   "result": {
     "item": "ud_skurczybyk:undeadbicks",
     "count": 4

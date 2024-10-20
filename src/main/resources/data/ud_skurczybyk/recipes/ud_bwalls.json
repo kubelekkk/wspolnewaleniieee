@@ -1,26 +1,15 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "ingredients": [
-    {
-      "item": "ud_skurczybyk:undeadbicks"
-    },
-    {
-      "item": "ud_skurczybyk:undeadbicks"
-    },
-    {
-      "item": "ud_skurczybyk:undeadbicks"
-    },
-    {
-      "item": "ud_skurczybyk:undeadbicks"
-    },
-    {
-      "item": "ud_skurczybyk:undeadbicks"
-    },
-    {
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
       "item": "ud_skurczybyk:undeadbicks"
     }
-  ],
+  },
   "result": {
     "item": "ud_skurczybyk:undeadbickswall",
     "count": 6
