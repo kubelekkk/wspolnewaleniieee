@@ -31,5 +31,13 @@
         "stream": false
       }
     ]
+  },
+  "ambient": {
+    "sounds": [
+      {
+        "name": "ud_skurczybyk:bez_nazwy_1",
+        "stream": false
+      }
+    ]
   }
 }

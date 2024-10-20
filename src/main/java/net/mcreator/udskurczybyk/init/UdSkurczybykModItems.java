@@ -40,6 +40,9 @@ public class UdSkurczybykModItems {
 	public static final RegistryObject<Item> CONCENTRATEDMONSTERMASS = block(UdSkurczybykModBlocks.CONCENTRATEDMONSTERMASS);
 	public static final RegistryObject<Item> OASIS_STONE_BLOCK = block(UdSkurczybykModBlocks.OASIS_STONE_BLOCK);
 	public static final RegistryObject<Item> OREBLOCK_PHANTOMITE = block(UdSkurczybykModBlocks.OREBLOCK_PHANTOMITE);
+	public static final RegistryObject<Item> DEAD_TREE = block(UdSkurczybykModBlocks.DEAD_TREE);
+	public static final RegistryObject<Item> MINERALRICHSTONE = block(UdSkurczybykModBlocks.MINERALRICHSTONE);
+	public static final RegistryObject<Item> BURNEDDYINGVEGETATIONBLOCK = block(UdSkurczybykModBlocks.BURNEDDYINGVEGETATIONBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -19,4 +19,5 @@ public class UdSkurczybykModSounds {
 	public static final RegistryObject<SoundEvent> OBRAZENIASKURCZYBYK = REGISTRY.register("obrazeniaskurczybyk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ud_skurczybyk", "obrazeniaskurczybyk")));
 	public static final RegistryObject<SoundEvent> SMIERCSKURCZYBYK = REGISTRY.register("smiercskurczybyk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ud_skurczybyk", "smiercskurczybyk")));
 	public static final RegistryObject<SoundEvent> DRAKEDRAKE = REGISTRY.register("drakedrake", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ud_skurczybyk", "drakedrake")));
+	public static final RegistryObject<SoundEvent> AMBIENT = REGISTRY.register("ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ud_skurczybyk", "ambient")));
 }

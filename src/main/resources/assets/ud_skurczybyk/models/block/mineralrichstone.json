@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/mineral_rich_stone",
+    "up": "ud_skurczybyk:block/mineral_rich_stone",
+    "north": "ud_skurczybyk:block/mineral_rich_stone",
+    "east": "ud_skurczybyk:block/mineral_rich_stone",
+    "south": "ud_skurczybyk:block/mineral_rich_stone",
+    "west": "ud_skurczybyk:block/mineral_rich_stone",
+    "particle": "ud_skurczybyk:block/mineral_rich_stone"
+  },
+  "render_type": "solid"
+}

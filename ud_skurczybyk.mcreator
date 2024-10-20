@@ -328,6 +328,54 @@
           "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/oreblock_phantomite.json"
         ]
       }
+    },
+    {
+      "name": "DeadTree",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ud_skurczybyk/blockstates/dead_tree.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/dead_tree.json",
+          "src/main/java/net/mcreator/udskurczybyk/block/DeadTreeBlock.java",
+          "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/dead_tree.json",
+          "src/main/resources/assets/ud_skurczybyk/models/block/dead_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Mineralrichstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralrichstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/mineralrichstone.json",
+          "src/main/resources/assets/ud_skurczybyk/models/block/mineralrichstone.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/mineralrichstone.json",
+          "src/main/java/net/mcreator/udskurczybyk/block/MineralrichstoneBlock.java",
+          "src/main/resources/assets/ud_skurczybyk/blockstates/mineralrichstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Burneddyingvegetationblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burneddyingvegetationblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/burneddyingvegetationblock.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/burneddyingvegetationblock.json",
+          "src/main/resources/assets/ud_skurczybyk/blockstates/burneddyingvegetationblock.json",
+          "src/main/resources/assets/ud_skurczybyk/models/block/burneddyingvegetationblock.json",
+          "src/main/java/net/mcreator/udskurczybyk/block/BurneddyingvegetationblockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -363,6 +411,14 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "ambient",
+      "files": [
+        "bez_nazwy_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -391,6 +447,12 @@
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:Undeadbickswall"
     ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DeadTree"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Monstermusclemass"
+    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Undeadbicksslab"
     ],
@@ -403,6 +465,7 @@
     "en_us": {
       "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
       "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
+      "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
       "subtitles.drakedrake": "",
       "item.ud_skurczybyk.testin_1_armor_helmet": "Testin1 Helmet",
       "item.ud_skurczybyk.testin_1_armor_boots": "Testin1 Boots",
@@ -414,13 +477,16 @@
       "item.ud_skurczybyk.testin_1_armor_leggings": "Testin1 Leggings",
       "item_group.ud_skurczybyk.un_dworld": "UN Dworld",
       "subtitles.thickofit": "thickofit",
+      "block.ud_skurczybyk.burneddyingvegetationblock": "Burned Dying Vegetation Block",
       "block.ud_skurczybyk.chitinore": "Chitin Ore",
       "block.ud_skurczybyk.jajko": "Undead Stone",
       "block.ud_skurczybyk.oasis_stone_block": "Oasis Stone Block",
       "item.ud_skurczybyk.spidercreaper_spawn_egg": "Cave Climber Spawn Egg",
-      "block.ud_skurczybyk.dried_out_blood": "Jajko",
+      "subtitles.ambient": "",
+      "block.ud_skurczybyk.dried_out_blood": "Dired Out Blood",
       "subtitles.smiercskurczybyk": "",
       "block.ud_skurczybyk.undeadbicksstairs": "Dying Vegetation Bricks Stair",
+      "block.ud_skurczybyk.dead_tree": "Dead Tree",
       "block.ud_skurczybyk.undead_stoneore": "Undead Stone lead ore",
       "item.ud_skurczybyk.testin_1_armor_chestplate": "Testin1 Chestplate",
       "subtitles.obrazeniaskurczybyk": "",

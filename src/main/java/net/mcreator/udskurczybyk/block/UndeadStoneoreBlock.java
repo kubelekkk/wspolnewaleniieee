@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class UndeadStoneoreBlock extends Block {
 	public UndeadStoneoreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(21f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

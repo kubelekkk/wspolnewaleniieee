@@ -34,11 +34,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Jajko",
+    "name": "Dired Out Blood",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 21.0,
+    "hardness": 2.0,
     "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,

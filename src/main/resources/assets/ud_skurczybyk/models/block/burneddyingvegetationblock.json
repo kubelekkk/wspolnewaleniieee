@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/bamboo_stalk",
+    "up": "minecraft:block/bamboo_stalk",
+    "north": "minecraft:block/bamboo_stalk",
+    "east": "minecraft:block/bamboo_stalk",
+    "south": "minecraft:block/bamboo_stalk",
+    "west": "minecraft:block/bamboo_stalk",
+    "particle": "minecraft:block/bamboo_stalk"
+  },
+  "render_type": "solid"
+}

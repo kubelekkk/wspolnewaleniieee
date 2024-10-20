@@ -38,6 +38,9 @@ public class UdSkurczybykModTabs {
 				tabData.accept(UdSkurczybykModBlocks.CONCENTRATEDMONSTERMASS.get().asItem());
 				tabData.accept(UdSkurczybykModBlocks.OASIS_STONE_BLOCK.get().asItem());
 				tabData.accept(UdSkurczybykModBlocks.OREBLOCK_PHANTOMITE.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.DEAD_TREE.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.MINERALRICHSTONE.get().asItem());
+				tabData.accept(UdSkurczybykModBlocks.BURNEDDYINGVEGETATIONBLOCK.get().asItem());
 			})
 
 					.build());

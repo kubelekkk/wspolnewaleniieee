@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class MonstermusclemassBlock extends Block {
 	public MonstermusclemassBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(21f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1.5f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

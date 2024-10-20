@@ -18,10 +18,13 @@ import net.mcreator.udskurczybyk.block.UndeadStoneoreBlock;
 import net.mcreator.udskurczybyk.block.OreblockPhantomiteBlock;
 import net.mcreator.udskurczybyk.block.OasisStoneBlockBlock;
 import net.mcreator.udskurczybyk.block.MonstermusclemassBlock;
+import net.mcreator.udskurczybyk.block.MineralrichstoneBlock;
 import net.mcreator.udskurczybyk.block.JajkoBlock;
 import net.mcreator.udskurczybyk.block.DriedOutBloodBlock;
+import net.mcreator.udskurczybyk.block.DeadTreeBlock;
 import net.mcreator.udskurczybyk.block.ConcentratedmonstermassBlock;
 import net.mcreator.udskurczybyk.block.ChitinoreBlock;
+import net.mcreator.udskurczybyk.block.BurneddyingvegetationblockBlock;
 import net.mcreator.udskurczybyk.UdSkurczybykMod;
 
 public class UdSkurczybykModBlocks {
@@ -38,6 +41,9 @@ public class UdSkurczybykModBlocks {
 	public static final RegistryObject<Block> CONCENTRATEDMONSTERMASS = REGISTRY.register("concentratedmonstermass", () -> new ConcentratedmonstermassBlock());
 	public static final RegistryObject<Block> OASIS_STONE_BLOCK = REGISTRY.register("oasis_stone_block", () -> new OasisStoneBlockBlock());
 	public static final RegistryObject<Block> OREBLOCK_PHANTOMITE = REGISTRY.register("oreblock_phantomite", () -> new OreblockPhantomiteBlock());
+	public static final RegistryObject<Block> DEAD_TREE = REGISTRY.register("dead_tree", () -> new DeadTreeBlock());
+	public static final RegistryObject<Block> MINERALRICHSTONE = REGISTRY.register("mineralrichstone", () -> new MineralrichstoneBlock());
+	public static final RegistryObject<Block> BURNEDDYINGVEGETATIONBLOCK = REGISTRY.register("burneddyingvegetationblock", () -> new BurneddyingvegetationblockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

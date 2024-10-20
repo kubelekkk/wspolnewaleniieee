@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class OreblockPhantomiteBlock extends Block {
 	public OreblockPhantomiteBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(21f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(2f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
