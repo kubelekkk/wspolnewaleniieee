@@ -30,70 +30,6 @@
       }
     },
     {
-      "name": "Testin1Armor",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testin_1_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_chestplate.json",
-          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_boots.json",
-          "src/main/java/net/mcreator/udskurczybyk/item/Testin1ArmorItem.java",
-          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_leggings.json",
-          "src/main/resources/assets/ud_skurczybyk/models/item/testin_1_armor_helmet.json"
-        ]
-      }
-    },
-    {
-      "name": "Testin1ArmorHelmetRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testin_1_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_helmet_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Testin1ArmorChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testin_1_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_chestplate_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Testin1ArmorLeggingsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testin_1_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_leggings_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Testin1ArmorBootsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testin_1_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ud_skurczybyk/recipes/testin_1_armor_boots_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "Hat",
       "type": "armor",
       "compiles": true,
@@ -376,6 +312,109 @@
           "src/main/java/net/mcreator/udskurczybyk/block/BurneddyingvegetationblockBlock.java"
         ]
       }
+    },
+    {
+      "name": "Chitin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chitin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/item/ChitinItem.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/chitin.json"
+        ]
+      }
+    },
+    {
+      "name": "Undead",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/item/UndeadItem.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/undead_chestplate.json",
+          "src/main/resources/assets/ud_skurczybyk/models/item/undead_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Undeadbricks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undeadbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/undeadbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "UDBslabs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ud_bslabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/ud_bslabs.json"
+        ]
+      }
+    },
+    {
+      "name": "UDBstairs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ud_bstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/ud_bstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "UDBwalls",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ud_bwalls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/ud_bwalls.json"
+        ]
+      }
+    },
+    {
+      "name": "DyingVegetationBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dying_vegetation_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/loot_tables/blocks/dying_vegetation_block.json",
+          "src/main/java/net/mcreator/udskurczybyk/block/DyingVegetationBlockBlock.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/dying_vegetation_block.json",
+          "src/main/resources/assets/ud_skurczybyk/blockstates/dying_vegetation_block.json",
+          "src/main/resources/assets/ud_skurczybyk/models/block/dying_vegetation_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Melt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ud_skurczybyk/recipes/melt.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -467,14 +506,14 @@
       "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
       "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
       "subtitles.drakedrake": "",
-      "item.ud_skurczybyk.testin_1_armor_helmet": "Testin1 Helmet",
-      "item.ud_skurczybyk.testin_1_armor_boots": "Testin1 Boots",
+      "item.ud_skurczybyk.undead_helmet": "Undead Helmet",
+      "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
       "block.ud_skurczybyk.concentratedmonstermass": "Concentrated Monster Mass",
       "item.ud_skurczybyk.thickofit": "Thick Of it",
+      "block.ud_skurczybyk.dying_vegetation_block": "Burned Dying Vegetation Block",
       "block.ud_skurczybyk.undeadbicks": "Dying Vegetation Bricks ",
       "block.ud_skurczybyk.undeadbickswall": "Dying Vegetation Bricks Wall",
       "item.ud_skurczybyk.thickofit.desc": "Thick Of IT - Villager",
-      "item.ud_skurczybyk.testin_1_armor_leggings": "Testin1 Leggings",
       "item_group.ud_skurczybyk.un_dworld": "UN Dworld",
       "subtitles.thickofit": "thickofit",
       "block.ud_skurczybyk.burneddyingvegetationblock": "Burned Dying Vegetation Block",
@@ -488,7 +527,7 @@
       "block.ud_skurczybyk.undeadbicksstairs": "Dying Vegetation Bricks Stair",
       "block.ud_skurczybyk.dead_tree": "Dead Tree",
       "block.ud_skurczybyk.undead_stoneore": "Undead Stone lead ore",
-      "item.ud_skurczybyk.testin_1_armor_chestplate": "Testin1 Chestplate",
+      "item.ud_skurczybyk.chitin": "Chitin",
       "subtitles.obrazeniaskurczybyk": "",
       "entity.ud_skurczybyk.skurczybyk": "Skurczybyk",
       "block.ud_skurczybyk.oreblock_phantomite": "Phantomite Ore Block",

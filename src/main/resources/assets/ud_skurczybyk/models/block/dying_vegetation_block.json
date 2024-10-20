@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ud_skurczybyk:block/dyingveget",
+    "up": "ud_skurczybyk:block/dyingveget",
+    "north": "ud_skurczybyk:block/dyingveget",
+    "east": "ud_skurczybyk:block/dyingveget",
+    "south": "ud_skurczybyk:block/dyingveget",
+    "west": "ud_skurczybyk:block/dyingveget",
+    "particle": "ud_skurczybyk:block/dyingveget"
+  },
+  "render_type": "solid"
+}

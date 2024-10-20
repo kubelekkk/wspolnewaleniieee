@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ud_skurczybyk:item/testin1_head"
+    "layer0": "ud_skurczybyk:item/helm_skurczybyka"
   }
 }

@@ -20,6 +20,7 @@ import net.mcreator.udskurczybyk.block.OasisStoneBlockBlock;
 import net.mcreator.udskurczybyk.block.MonstermusclemassBlock;
 import net.mcreator.udskurczybyk.block.MineralrichstoneBlock;
 import net.mcreator.udskurczybyk.block.JajkoBlock;
+import net.mcreator.udskurczybyk.block.DyingVegetationBlockBlock;
 import net.mcreator.udskurczybyk.block.DriedOutBloodBlock;
 import net.mcreator.udskurczybyk.block.DeadTreeBlock;
 import net.mcreator.udskurczybyk.block.ConcentratedmonstermassBlock;
@@ -44,6 +45,7 @@ public class UdSkurczybykModBlocks {
 	public static final RegistryObject<Block> DEAD_TREE = REGISTRY.register("dead_tree", () -> new DeadTreeBlock());
 	public static final RegistryObject<Block> MINERALRICHSTONE = REGISTRY.register("mineralrichstone", () -> new MineralrichstoneBlock());
 	public static final RegistryObject<Block> BURNEDDYINGVEGETATIONBLOCK = REGISTRY.register("burneddyingvegetationblock", () -> new BurneddyingvegetationblockBlock());
+	public static final RegistryObject<Block> DYING_VEGETATION_BLOCK = REGISTRY.register("dying_vegetation_block", () -> new DyingVegetationBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

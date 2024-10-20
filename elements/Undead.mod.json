@@ -3,12 +3,12 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "testin1_head",
+    "textureHelmet": "helm_skurczybyka",
     "enableBody": true,
-    "textureBody": "testin1_body",
-    "enableLeggings": true,
+    "textureBody": "klata_skuczybyka",
+    "enableLeggings": false,
     "textureLeggings": "testin1_leggings",
-    "enableBoots": true,
+    "enableBoots": false,
     "textureBoots": "testin1_boots",
     "creativeTabs": [
       {
@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "testin1",
-    "helmetName": "Testin1 Helmet",
-    "bodyName": "Testin1 Chestplate",
-    "leggingsName": "Testin1 Leggings",
-    "bootsName": "Testin1 Boots",
+    "helmetName": "Undead Helmet",
+    "bodyName": "Undead Chest",
+    "leggingsName": "Undead Leggings",
+    "bootsName": "Undead Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -84,21 +84,17 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
+    "maxDamage": 17,
+    "damageValueHelmet": 6,
+    "damageValueBody": 10,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 5,
+    "enchantability": 10,
+    "toughness": 5.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_netherite"
     },
-    "repairItems": [
-      {
-        "value": "Items.LEATHER_HELMET"
-      }
-    ]
+    "repairItems": []
   }
 }

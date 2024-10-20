@@ -20,10 +20,6 @@ public class UdSkurczybykModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.ud_skurczybyk.un_dworld")).icon(() -> new ItemStack(UdSkurczybykModBlocks.UNDEADBICKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(UdSkurczybykModItems.SKURCZYBYK_SPAWN_EGG.get());
 				tabData.accept(UdSkurczybykModItems.THICKOFIT.get());
-				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_HELMET.get());
-				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_CHESTPLATE.get());
-				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_LEGGINGS.get());
-				tabData.accept(UdSkurczybykModItems.TESTIN_1_ARMOR_BOOTS.get());
 				tabData.accept(UdSkurczybykModItems.HAT_HELMET.get());
 				tabData.accept(UdSkurczybykModItems.SPIDERCREAPER_SPAWN_EGG.get());
 				tabData.accept(UdSkurczybykModBlocks.JAJKO.get().asItem());
@@ -41,6 +37,9 @@ public class UdSkurczybykModTabs {
 				tabData.accept(UdSkurczybykModBlocks.DEAD_TREE.get().asItem());
 				tabData.accept(UdSkurczybykModBlocks.MINERALRICHSTONE.get().asItem());
 				tabData.accept(UdSkurczybykModBlocks.BURNEDDYINGVEGETATIONBLOCK.get().asItem());
+				tabData.accept(UdSkurczybykModItems.UNDEAD_HELMET.get());
+				tabData.accept(UdSkurczybykModItems.UNDEAD_CHESTPLATE.get());
+				tabData.accept(UdSkurczybykModBlocks.DYING_VEGETATION_BLOCK.get().asItem());
 			})
 
 					.build());

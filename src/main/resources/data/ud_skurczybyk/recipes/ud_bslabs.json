@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ud_skurczybyk:undeadbicks"
+    },
+    {
+      "item": "ud_skurczybyk:undeadbicks"
+    },
+    {
+      "item": "ud_skurczybyk:undeadbicks"
+    }
+  ],
+  "result": {
+    "item": "ud_skurczybyk:undeadbicksslab",
+    "count": 6
+  }
+}
