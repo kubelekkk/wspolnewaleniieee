@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.udskurczybyk.item.UndeadItem;
 import net.mcreator.udskurczybyk.item.ThickofitItem;
+import net.mcreator.udskurczybyk.item.PhantomiteItem;
 import net.mcreator.udskurczybyk.item.HatItem;
 import net.mcreator.udskurczybyk.item.ChitinItem;
 import net.mcreator.udskurczybyk.UdSkurczybykMod;
@@ -44,6 +45,7 @@ public class UdSkurczybykModItems {
 	public static final RegistryObject<Item> UNDEAD_HELMET = REGISTRY.register("undead_helmet", () -> new UndeadItem.Helmet());
 	public static final RegistryObject<Item> UNDEAD_CHESTPLATE = REGISTRY.register("undead_chestplate", () -> new UndeadItem.Chestplate());
 	public static final RegistryObject<Item> DYING_VEGETATION_BLOCK = block(UdSkurczybykModBlocks.DYING_VEGETATION_BLOCK);
+	public static final RegistryObject<Item> PHANTOMITE = REGISTRY.register("phantomite", () -> new PhantomiteItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

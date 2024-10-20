@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ud_skurczybyk:item/ksi_villager"
+    "layer0": "ud_skurczybyk:item/phantomite"
   }
 }

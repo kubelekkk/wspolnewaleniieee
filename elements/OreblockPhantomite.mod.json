@@ -49,7 +49,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Blocks.DIAMOND_BLOCK"
+      "value": "CUSTOM:Phantomite"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
