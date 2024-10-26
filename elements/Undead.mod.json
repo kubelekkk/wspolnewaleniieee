@@ -10,6 +10,9 @@
     "textureLeggings": "testin1_leggings",
     "enableBoots": false,
     "textureBoots": "testin1_boots",
+    "onHelmetTick": {
+      "name": "UndeadNaTickuHelmu"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:UNDworld"
@@ -32,14 +35,14 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "Default",
-    "helmetModelPart": "Helmet",
-    "helmetModelTexture": "From armor",
-    "bodyModelName": "Default",
-    "bodyModelPart": "Body",
-    "armsModelPartL": "Arms L",
-    "armsModelPartR": "Arms R",
-    "bodyModelTexture": "From armor",
+    "helmetModelName": "Modelhellmet_negro_Converted_Converted",
+    "helmetModelPart": "bone",
+    "helmetModelTexture": "gemltexsadadture.png",
+    "bodyModelName": "Modelcheasdasdadstplate",
+    "bodyModelPart": "bone2",
+    "armsModelPartL": "bone4",
+    "armsModelPartR": "bone3",
+    "bodyModelTexture": "tesadxture.png",
     "leggingsModelName": "Default",
     "leggingsModelPartL": "Leggings L",
     "leggingsModelPartR": "Leggings R",
@@ -56,8 +59,8 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": false,
-    "bodyImmuneToFire": false,
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
     "helmetGlowCondition": {

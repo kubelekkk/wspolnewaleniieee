@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.udskurczybyk.entity.SpidercreaperEntity;
 import net.mcreator.udskurczybyk.entity.SkurczybykEntity;
+import net.mcreator.udskurczybyk.entity.ShEntity;
 import net.mcreator.udskurczybyk.UdSkurczybykMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -31,6 +32,10 @@ public class UdSkurczybykModEntities {
 			EntityType.Builder.<SpidercreaperEntity>of(SpidercreaperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpidercreaperEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ShEntity>> SH = register("sh",
+			EntityType.Builder.<ShEntity>of(ShEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,6 +46,7 @@ public class UdSkurczybykModEntities {
 		event.enqueueWork(() -> {
 			SkurczybykEntity.init();
 			SpidercreaperEntity.init();
+			ShEntity.init();
 		});
 	}
 
@@ -48,5 +54,6 @@ public class UdSkurczybykModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SKURCZYBYK.get(), SkurczybykEntity.createAttributes().build());
 		event.put(SPIDERCREAPER.get(), SpidercreaperEntity.createAttributes().build());
+		event.put(SH.get(), ShEntity.createAttributes().build());
 	}
 }

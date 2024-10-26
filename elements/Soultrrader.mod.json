@@ -1,0 +1,16 @@
+{
+  "_fv": 69,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Soul trader",
+    "pointOfInterest": {
+      "value": "CUSTOM:DeadTree"
+    },
+    "actionSound": {
+      "value": "entity.villager.trading"
+    },
+    "hat": "None",
+    "professionTextureFile": "villager.png",
+    "zombifiedProfessionTextureFile": "villager.png"
+  }
+}

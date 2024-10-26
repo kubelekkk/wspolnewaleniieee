@@ -429,6 +429,45 @@
           "src/main/java/net/mcreator/udskurczybyk/item/PhantomiteItem.java"
         ]
       }
+    },
+    {
+      "name": "Soultrrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soultrrader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sh",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/entity/ShEntity.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/sh_spawn_egg.json",
+          "src/main/java/net/mcreator/udskurczybyk/client/renderer/ShRenderer.java",
+          "src/main/java/net/mcreator/udskurczybyk/entity/model/ShModel.java",
+          "src/main/resources/data/ud_skurczybyk/forge/biome_modifier/sh_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "UndeadNaTickuHelmu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undead_na_ticku_helmu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/procedures/UndeadNaTickuHelmuProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -516,7 +555,8 @@
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
+    "pl_pl": {
+      "entity.ud_skurczybyk.sh": "Sh",
       "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
       "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
       "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
@@ -525,6 +565,7 @@
       "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
       "block.ud_skurczybyk.concentratedmonstermass": "Concentrated Monster Mass",
       "item.ud_skurczybyk.thickofit": "Thick Of it",
+      "item.ud_skurczybyk.sh_spawn_egg": "Sh Spawn Egg",
       "block.ud_skurczybyk.dying_vegetation_block": "Burned Dying Vegetation Block",
       "block.ud_skurczybyk.undeadbicks": "Dying Vegetation Bricks ",
       "block.ud_skurczybyk.undeadbickswall": "Dying Vegetation Bricks Wall",
@@ -536,6 +577,45 @@
       "block.ud_skurczybyk.jajko": "Undead Stone",
       "block.ud_skurczybyk.oasis_stone_block": "Oasis Stone Block",
       "item.ud_skurczybyk.phantomite": "Phantomite",
+      "entity.minecraft.villager.ud_skurczybyk.soultrrader": "Soul trader",
+      "item.ud_skurczybyk.spidercreaper_spawn_egg": "Cave Climber Spawn Egg",
+      "subtitles.ambient": "",
+      "block.ud_skurczybyk.dried_out_blood": "Dired Out Blood",
+      "subtitles.smiercskurczybyk": "",
+      "block.ud_skurczybyk.undeadbicksstairs": "Dying Vegetation Bricks Stair",
+      "block.ud_skurczybyk.dead_tree": "Dead Tree",
+      "block.ud_skurczybyk.undead_stoneore": "Undead Stone lead ore",
+      "item.ud_skurczybyk.chitin": "Chitin",
+      "subtitles.obrazeniaskurczybyk": "",
+      "entity.ud_skurczybyk.skurczybyk": "Skurczybyk",
+      "block.ud_skurczybyk.oreblock_phantomite": "Phantomite Ore Block",
+      "block.ud_skurczybyk.monstermusclemass": "Monster Muscle Mass",
+      "item.ud_skurczybyk.skurczybyk_spawn_egg": "Skurczybyk Spawn Egg",
+      "entity.ud_skurczybyk.spidercreaper": "Cave Climber"
+    },
+    "en_us": {
+      "entity.ud_skurczybyk.sh": "Sh",
+      "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
+      "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
+      "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
+      "subtitles.drakedrake": "",
+      "item.ud_skurczybyk.undead_helmet": "Undead Helmet",
+      "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
+      "block.ud_skurczybyk.concentratedmonstermass": "Concentrated Monster Mass",
+      "item.ud_skurczybyk.thickofit": "Thick Of it",
+      "item.ud_skurczybyk.sh_spawn_egg": "Sh Spawn Egg",
+      "block.ud_skurczybyk.dying_vegetation_block": "Burned Dying Vegetation Block",
+      "block.ud_skurczybyk.undeadbicks": "Dying Vegetation Bricks ",
+      "block.ud_skurczybyk.undeadbickswall": "Dying Vegetation Bricks Wall",
+      "item.ud_skurczybyk.thickofit.desc": "Thick Of IT - Villager",
+      "item_group.ud_skurczybyk.un_dworld": "UN Dworld",
+      "subtitles.thickofit": "thickofit",
+      "block.ud_skurczybyk.burneddyingvegetationblock": "Burned Dying Vegetation Block",
+      "block.ud_skurczybyk.chitinore": "Chitin Ore",
+      "block.ud_skurczybyk.jajko": "Undead Stone",
+      "block.ud_skurczybyk.oasis_stone_block": "Oasis Stone Block",
+      "item.ud_skurczybyk.phantomite": "Phantomite",
+      "entity.minecraft.villager.ud_skurczybyk.soultrrader": "Soul trader",
       "item.ud_skurczybyk.spidercreaper_spawn_egg": "Cave Climber Spawn Egg",
       "subtitles.ambient": "",
       "block.ud_skurczybyk.dried_out_blood": "Dired Out Blood",

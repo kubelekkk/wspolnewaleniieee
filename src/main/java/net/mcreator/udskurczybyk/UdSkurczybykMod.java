@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.udskurczybyk.init.UdSkurczybykModVillagerProfessions;
 import net.mcreator.udskurczybyk.init.UdSkurczybykModTabs;
 import net.mcreator.udskurczybyk.init.UdSkurczybykModSounds;
 import net.mcreator.udskurczybyk.init.UdSkurczybykModItems;
@@ -49,6 +50,8 @@ public class UdSkurczybykMod {
 		UdSkurczybykModEntities.REGISTRY.register(bus);
 
 		UdSkurczybykModTabs.REGISTRY.register(bus);
+
+		UdSkurczybykModVillagerProfessions.PROFESSIONS.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.udskurczybyk.client.renderer.SpidercreaperRenderer;
 import net.mcreator.udskurczybyk.client.renderer.SkurczybykRenderer;
+import net.mcreator.udskurczybyk.client.renderer.ShRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class UdSkurczybykModEntityRenderers {
@@ -18,5 +19,6 @@ public class UdSkurczybykModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(UdSkurczybykModEntities.SKURCZYBYK.get(), SkurczybykRenderer::new);
 		event.registerEntityRenderer(UdSkurczybykModEntities.SPIDERCREAPER.get(), SpidercreaperRenderer::new);
+		event.registerEntityRenderer(UdSkurczybykModEntities.SH.get(), ShRenderer::new);
 	}
 }

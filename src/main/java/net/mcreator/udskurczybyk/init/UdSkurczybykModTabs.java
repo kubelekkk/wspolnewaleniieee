@@ -41,6 +41,7 @@ public class UdSkurczybykModTabs {
 				tabData.accept(UdSkurczybykModItems.UNDEAD_CHESTPLATE.get());
 				tabData.accept(UdSkurczybykModBlocks.DYING_VEGETATION_BLOCK.get().asItem());
 				tabData.accept(UdSkurczybykModItems.PHANTOMITE.get());
+				tabData.accept(UdSkurczybykModItems.SH_SPAWN_EGG.get());
 			})
 
 					.build());
