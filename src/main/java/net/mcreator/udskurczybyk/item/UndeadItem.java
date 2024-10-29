@@ -23,8 +23,8 @@ import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.udskurczybyk.procedures.UndeadNaTickuHelmuProcedure;
+import net.mcreator.udskurczybyk.client.model.Modeltffff;
 import net.mcreator.udskurczybyk.client.model.Modelhellmet_negro_Converted_Converted;
-import net.mcreator.udskurczybyk.client.model.Modelcheasdasdadstplate;
 
 import java.util.function.Consumer;
 import java.util.Map;
@@ -125,10 +125,10 @@ public abstract class UndeadItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new Modelcheasdasdadstplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcheasdasdadstplate.LAYER_LOCATION)).bone2,
-							"left_arm", new Modelcheasdasdadstplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcheasdasdadstplate.LAYER_LOCATION)).bone4, "right_arm",
-							new Modelcheasdasdadstplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcheasdasdadstplate.LAYER_LOCATION)).bone3, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new Modeltffff(Minecraft.getInstance().getEntityModels().bakeLayer(Modeltffff.LAYER_LOCATION)).bone2, "left_arm",
+							new Modeltffff(Minecraft.getInstance().getEntityModels().bakeLayer(Modeltffff.LAYER_LOCATION)).bone4, "right_arm", new Modeltffff(Minecraft.getInstance().getEntityModels().bakeLayer(Modeltffff.LAYER_LOCATION)).bone3,
+							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+							"left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();

@@ -19,7 +19,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.udskurczybyk.client.model.ModelCB_Hat_Converted;
+import net.mcreator.udskurczybyk.client.model.ModelaHat_Converted_Converted;
 
 import java.util.function.Consumer;
 import java.util.Map;
@@ -81,9 +81,9 @@ public abstract class HatItem extends ArmorItem {
 				@Override
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head", new ModelCB_Hat_Converted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelCB_Hat_Converted.LAYER_LOCATION)).hat, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+							Map.of("head", new ModelaHat_Converted_Converted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelaHat_Converted_Converted.LAYER_LOCATION)).hat, "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;

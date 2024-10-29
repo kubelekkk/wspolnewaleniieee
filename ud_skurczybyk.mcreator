@@ -557,9 +557,9 @@
   "language_map": {
     "pl_pl": {
       "entity.ud_skurczybyk.sh": "Sh",
-      "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
-      "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
       "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
+      "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
+      "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
       "subtitles.drakedrake": "",
       "item.ud_skurczybyk.undead_helmet": "Undead Helmet",
       "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
@@ -595,9 +595,9 @@
     },
     "en_us": {
       "entity.ud_skurczybyk.sh": "Sh",
-      "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
-      "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
       "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
+      "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
+      "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
       "subtitles.drakedrake": "",
       "item.ud_skurczybyk.undead_helmet": "Undead Helmet",
       "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
