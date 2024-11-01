@@ -6,7 +6,6 @@ import net.minecraftforge.event.entity.living.LivingEvent;
 
 import net.mcreator.udskurczybyk.entity.SpidercreaperEntity;
 import net.mcreator.udskurczybyk.entity.SkurczybykEntity;
-import net.mcreator.udskurczybyk.entity.ShEntity;
 
 @Mod.EventBusSubscriber
 public class EntityAnimationFactory {
@@ -21,13 +20,6 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof SpidercreaperEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof ShEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

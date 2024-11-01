@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.udskurczybyk.client.model.Modeltffff;
+import net.mcreator.udskurczybyk.client.model.ModelsAoulhunter;
 import net.mcreator.udskurczybyk.client.model.Modelhellmet_negro_Converted_Converted;
 import net.mcreator.udskurczybyk.client.model.ModelaHat_Converted_Converted;
 import net.mcreator.udskurczybyk.client.model.ModelCB_Hat_Converted;
@@ -20,6 +21,7 @@ public class UdSkurczybykModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelaHat_Converted_Converted.LAYER_LOCATION, ModelaHat_Converted_Converted::createBodyLayer);
 		event.registerLayerDefinition(Modelhellmet_negro_Converted_Converted.LAYER_LOCATION, Modelhellmet_negro_Converted_Converted::createBodyLayer);
+		event.registerLayerDefinition(ModelsAoulhunter.LAYER_LOCATION, ModelsAoulhunter::createBodyLayer);
 		event.registerLayerDefinition(Modeltffff.LAYER_LOCATION, Modeltffff::createBodyLayer);
 		event.registerLayerDefinition(ModelCB_Hat_Converted.LAYER_LOCATION, ModelCB_Hat_Converted::createBodyLayer);
 	}

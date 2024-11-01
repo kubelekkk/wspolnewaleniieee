@@ -441,22 +441,6 @@
       }
     },
     {
-      "name": "Sh",
-      "type": "animatedentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sh",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/udskurczybyk/entity/ShEntity.java",
-          "src/main/resources/assets/ud_skurczybyk/models/item/sh_spawn_egg.json",
-          "src/main/java/net/mcreator/udskurczybyk/client/renderer/ShRenderer.java",
-          "src/main/java/net/mcreator/udskurczybyk/entity/model/ShModel.java",
-          "src/main/resources/data/ud_skurczybyk/forge/biome_modifier/sh_biome_modifier.json"
-        ]
-      }
-    },
-    {
       "name": "UndeadNaTickuHelmu",
       "type": "procedure",
       "compiles": true,
@@ -467,6 +451,21 @@
           "src/main/java/net/mcreator/udskurczybyk/procedures/UndeadNaTickuHelmuProcedure.java"
         ],
         "dependencies": []
+      }
+    },
+    {
+      "name": "Hgjg",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hgjg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/udskurczybyk/client/renderer/HgjgRenderer.java",
+          "src/main/java/net/mcreator/udskurczybyk/entity/HgjgEntity.java",
+          "src/main/resources/assets/ud_skurczybyk/models/item/hgjg_spawn_egg.json",
+          "src/main/resources/data/ud_skurczybyk/forge/biome_modifier/hgjg_biome_modifier.json"
+        ]
       }
     }
   ],
@@ -524,27 +523,24 @@
       "~CUSTOM:Thickofit"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:DriedOutBlood",
       "~CUSTOM:OreblockPhantomite",
       "~CUSTOM:OasisStoneBlock",
       "~CUSTOM:Concentratedmonstermass",
       "~CUSTOM:Chitinore",
       "~CUSTOM:Monstermusclemass",
       "~CUSTOM:UndeadStoneore",
-      "~CUSTOM:Jajko",
+      "~CUSTOM:DriedOutBlood",
       "~CUSTOM:Undeadbickswall",
       "~CUSTOM:Undeadbicksslab",
       "~CUSTOM:Undeadbicksstairs",
-      "~CUSTOM:Undeadbicks"
+      "~CUSTOM:Undeadbicks",
+      "~CUSTOM:Jajko"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:Undeadbickswall"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:DeadTree"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Monstermusclemass"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Undeadbicksslab"
@@ -556,7 +552,6 @@
   "tab_element_order": {},
   "language_map": {
     "pl_pl": {
-      "entity.ud_skurczybyk.sh": "Sh",
       "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
       "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
       "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
@@ -565,7 +560,6 @@
       "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
       "block.ud_skurczybyk.concentratedmonstermass": "Concentrated Monster Mass",
       "item.ud_skurczybyk.thickofit": "Thick Of it",
-      "item.ud_skurczybyk.sh_spawn_egg": "Sh Spawn Egg",
       "block.ud_skurczybyk.dying_vegetation_block": "Burned Dying Vegetation Block",
       "block.ud_skurczybyk.undeadbicks": "Dying Vegetation Bricks ",
       "block.ud_skurczybyk.undeadbickswall": "Dying Vegetation Bricks Wall",
@@ -584,6 +578,7 @@
       "subtitles.smiercskurczybyk": "",
       "block.ud_skurczybyk.undeadbicksstairs": "Dying Vegetation Bricks Stair",
       "block.ud_skurczybyk.dead_tree": "Dead Tree",
+      "item.ud_skurczybyk.hgjg_spawn_egg": "Hgjg Spawn Egg",
       "block.ud_skurczybyk.undead_stoneore": "Undead Stone lead ore",
       "item.ud_skurczybyk.chitin": "Chitin",
       "subtitles.obrazeniaskurczybyk": "",
@@ -591,10 +586,10 @@
       "block.ud_skurczybyk.oreblock_phantomite": "Phantomite Ore Block",
       "block.ud_skurczybyk.monstermusclemass": "Monster Muscle Mass",
       "item.ud_skurczybyk.skurczybyk_spawn_egg": "Skurczybyk Spawn Egg",
+      "entity.ud_skurczybyk.hgjg": "Hgjg",
       "entity.ud_skurczybyk.spidercreaper": "Cave Climber"
     },
     "en_us": {
-      "entity.ud_skurczybyk.sh": "Sh",
       "block.ud_skurczybyk.mineralrichstone": "Mineral Rich Stone",
       "block.ud_skurczybyk.undeadbicksslab": "Dying Vegetation Bricks slab",
       "item.ud_skurczybyk.hat_helmet": "Hat Helmet",
@@ -603,7 +598,6 @@
       "item.ud_skurczybyk.undead_chestplate": "Undead Chest",
       "block.ud_skurczybyk.concentratedmonstermass": "Concentrated Monster Mass",
       "item.ud_skurczybyk.thickofit": "Thick Of it",
-      "item.ud_skurczybyk.sh_spawn_egg": "Sh Spawn Egg",
       "block.ud_skurczybyk.dying_vegetation_block": "Burned Dying Vegetation Block",
       "block.ud_skurczybyk.undeadbicks": "Dying Vegetation Bricks ",
       "block.ud_skurczybyk.undeadbickswall": "Dying Vegetation Bricks Wall",
@@ -622,6 +616,7 @@
       "subtitles.smiercskurczybyk": "",
       "block.ud_skurczybyk.undeadbicksstairs": "Dying Vegetation Bricks Stair",
       "block.ud_skurczybyk.dead_tree": "Dead Tree",
+      "item.ud_skurczybyk.hgjg_spawn_egg": "Soul Hunter Spawn Egg",
       "block.ud_skurczybyk.undead_stoneore": "Undead Stone lead ore",
       "item.ud_skurczybyk.chitin": "Chitin",
       "subtitles.obrazeniaskurczybyk": "",
@@ -629,6 +624,7 @@
       "block.ud_skurczybyk.oreblock_phantomite": "Phantomite Ore Block",
       "block.ud_skurczybyk.monstermusclemass": "Monster Muscle Mass",
       "item.ud_skurczybyk.skurczybyk_spawn_egg": "Skurczybyk Spawn Egg",
+      "entity.ud_skurczybyk.hgjg": "Soul Hunter",
       "entity.ud_skurczybyk.spidercreaper": "Cave Climber"
     }
   },

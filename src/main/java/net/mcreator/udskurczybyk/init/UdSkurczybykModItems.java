@@ -46,7 +46,7 @@ public class UdSkurczybykModItems {
 	public static final RegistryObject<Item> UNDEAD_CHESTPLATE = REGISTRY.register("undead_chestplate", () -> new UndeadItem.Chestplate());
 	public static final RegistryObject<Item> DYING_VEGETATION_BLOCK = block(UdSkurczybykModBlocks.DYING_VEGETATION_BLOCK);
 	public static final RegistryObject<Item> PHANTOMITE = REGISTRY.register("phantomite", () -> new PhantomiteItem());
-	public static final RegistryObject<Item> SH_SPAWN_EGG = REGISTRY.register("sh_spawn_egg", () -> new ForgeSpawnEggItem(UdSkurczybykModEntities.SH, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> HGJG_SPAWN_EGG = REGISTRY.register("hgjg_spawn_egg", () -> new ForgeSpawnEggItem(UdSkurczybykModEntities.HGJG, -1, -10079488, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
